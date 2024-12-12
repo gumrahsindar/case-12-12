@@ -1,8 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container py-4">
-    <Navbar />
+  <div class="container py-4 min-h-screen">
+    <header>
+      <Navbar />
+    </header>
     <slot />
   </div>
 </template>
