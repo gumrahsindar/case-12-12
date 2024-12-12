@@ -45,6 +45,7 @@ const onSubmit = form.handleSubmit((values) => {
             type="text"
             placeholder="Your username"
             v-bind="componentField"
+            v-auto-focus
           />
         </FormControl>
 
