@@ -11,7 +11,7 @@ useHead({
 </script>
 
 <template>
-  <main class="mt-24">
+  <main class="mt-10 lg:mt-24">
     <div class="flex flex-col items-center gap-10">
       <div class="text-center space-y-4">
         <h1 class="mt-10 text-4xl font-semibold">Catify</h1>
