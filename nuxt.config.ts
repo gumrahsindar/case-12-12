@@ -34,5 +34,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-  image: {},
+  image: {
+    provider: 'netlifyImageCdn',
+  },
 })
