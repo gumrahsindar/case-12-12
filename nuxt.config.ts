@@ -34,8 +34,5 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-  image: {
-    provider: 'netlify',
-    domains: ['https://api.thecatapi.com'],
-  },
+  image: {},
 })
