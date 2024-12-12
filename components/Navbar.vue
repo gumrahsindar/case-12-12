@@ -7,8 +7,9 @@ const authStore = useAuthStore()
 <template>
   <nav class="flex items-center justify-between">
     <Logo />
+
     <small v-if="authStore.user.isLoggedIn" class="ml-auto mr-4"
-      >Logged in as: {{ authStore.user.email }}</small
+      >User: {{ authStore.user.username }}</small
     >
     <Button
       v-if="authStore.user.isLoggedIn"
