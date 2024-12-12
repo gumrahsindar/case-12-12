@@ -35,6 +35,6 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   image: {
-    provider: 'netlifyImageCdn',
+    domains: ['cdn2.thecatapi.com'],
   },
 })
