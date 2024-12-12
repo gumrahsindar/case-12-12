@@ -2,7 +2,23 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxtjs/color-mode'],
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
+    },
+  },
+  runtimeConfig: {
+    catApiKey: process.env.NUXT_CAT_API_KEY,
+  },
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'shadcn-nuxt',
+    '@nuxtjs/color-mode',
+    '@nuxt/image',
+    '@pinia/nuxt',
+  ],
   css: ['~/assets/css/tailwind.css'],
   shadcn: {
     /**
