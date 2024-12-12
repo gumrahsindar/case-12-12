@@ -1,5 +1,5 @@
 <template>
-  <div class="mr-4 inline">
+  <div class="mr-3 inline">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="140"

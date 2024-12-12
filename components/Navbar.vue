@@ -13,7 +13,7 @@ const authStore = useAuthStore()
     >
     <Button
       v-if="authStore.user.isLoggedIn"
-      class="mr-4"
+      class="mr-3"
       size="sm"
       variant="destructive"
       @click="authStore.logout"
